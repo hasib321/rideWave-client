@@ -60,6 +60,7 @@ const Login = () => {
   };
   return (
     <div className="max-w-screen-xl mx-auto px-8">
+      {/* site naming */}
       <Helmet>
         <title>RideWave | LogIn</title>
       </Helmet>
