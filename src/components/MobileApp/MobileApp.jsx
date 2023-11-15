@@ -17,6 +17,7 @@ const MobileApp = () => {
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
           >
+            {/* book ride */}
             <h1 className="text-[#02c173] text-5xl font-semibold pb-5">
               Simple Steps to Book Your Ride
             </h1>
