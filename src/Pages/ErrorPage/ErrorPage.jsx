@@ -8,6 +8,7 @@ const ErrorPage = () => {
     <div className="flex items-center justify-center h-screen">
       <div className="text-center">
         <h1 className="text-5xl text-red-700">oopss Not Found</h1>
+        {/* Error page lottie */}
         <div>
           <Lottie
             animationData={errorElement}
