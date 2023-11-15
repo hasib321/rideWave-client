@@ -19,6 +19,7 @@ const PopularServices = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto px-8">
+      {/* popular services at a glance */}
       <div
         className="text-center mt-20 pb-10"
         data-aos="slide-up"
