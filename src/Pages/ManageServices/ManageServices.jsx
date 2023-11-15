@@ -11,6 +11,7 @@ const ManageServices = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto px-8">
+      {/* Site Naming */}
       <Helmet>
         <title>RideWave | Manage Services</title>
       </Helmet>
