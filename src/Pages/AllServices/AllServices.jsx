@@ -39,6 +39,7 @@ const AllServices = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto px-8">
+      {/* site naming */}
       <Helmet>
         <title>RideWave | Services</title>
       </Helmet>
