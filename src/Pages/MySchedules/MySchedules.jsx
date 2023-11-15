@@ -19,6 +19,7 @@ const MySchedules = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto px-8">
+      {/* site naming show */}
       <Helmet>
         <title>RideWave | My Schedules</title>
       </Helmet>
