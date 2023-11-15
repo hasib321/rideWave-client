@@ -11,6 +11,7 @@ import TravelExperience from "../../components/TravelExperienece/TravelExperienc
 const Home = () => {
   return (
     <div>
+      {/* site name*/}
       <Helmet>
         <title>RideWave | Home</title>
       </Helmet>
