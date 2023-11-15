@@ -192,7 +192,7 @@ const UpdateService = () => {
           </div>
           <input
             type="submit"
-            value="Add Product"
+            value="Update Service"
             className="text-white bg-[#0b996f] px-7 py-3 rounded-full font-semibold w-full cursor-pointer"
           />
         </form>

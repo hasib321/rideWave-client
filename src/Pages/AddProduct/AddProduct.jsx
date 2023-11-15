@@ -19,6 +19,7 @@ const AddProduct = () => {
     const Description = form.description.value;
     const serviceArea = form.serviceArea.value;
     const image = form.image.value;
+    const serviceProviderImage = user.photoURL;
 
     const addService = {
       name,
@@ -28,6 +29,7 @@ const AddProduct = () => {
       Description,
       serviceArea,
       image,
+      serviceProviderImage,
     };
 
     // send data to the server
