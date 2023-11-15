@@ -146,6 +146,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        {/* All Right reserved */}
         <div className="py-6 text-sm text-center text-gray-600">
           © 2023 RideWave All rights reserved.
         </div>
