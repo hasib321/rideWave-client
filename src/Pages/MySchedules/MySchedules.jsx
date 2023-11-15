@@ -27,6 +27,7 @@ const MySchedules = () => {
         <h1 className="text-[#0b996f]  text-4xl font-semibold py-8 text-center">
           My Bookings
         </h1>
+        {/* ManageServices Card */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           {currentBooking.length > 0 ? (
             currentBooking.map((booking) => (
