@@ -19,19 +19,10 @@ const ServiceDetails = () => {
   } = services;
 
   const { data, isLoading } = useService();
-  if (isLoading === true) {
-    return <Loading></Loading>;
-  }
-
-  const navigate = useNavigate();
-  const handleGoBack = () => {
-    navigate(-1);
-  };
-
   const [showCard, setShowCard] = useState([]);
 
   useEffect(() => {
-    if (serviceName) {
+    if (data && serviceName) {
       const filteredCard = data.filter(
         (card) => card.serviceName !== serviceName
       );
@@ -41,9 +32,17 @@ const ServiceDetails = () => {
     }
   }, [data, serviceName]);
 
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
+  if (isLoading === true) {
+    return <Loading></Loading>;
+  }
   return (
     <div className="max-w-screen-xl mx-auto px-8">
-      <div className="grid grid-cols-12 gap-5 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 items-center">
         <div className="col-span-9">
           <div>
             <div className="bg-[#e2f4ea]  rounded p-5 ">
@@ -106,7 +105,7 @@ const ServiceDetails = () => {
 
         {/* service provider info */}
         <div className="col-span-3 sticky top-0">
-          <h1 className="text-[#0b996f]  text-xl text-center font-semibold pb-4">
+          <h1 className="text-[#0b996f]  text-2xl text-center font-semibold pb-4">
             Service Provider Information
           </h1>
           <div>

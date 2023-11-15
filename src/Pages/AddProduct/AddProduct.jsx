@@ -33,12 +33,14 @@ const AddProduct = () => {
     };
 
     // send data to the server
-    axios.post("http://localhost:5000/service", addService).then((res) => {
-      if (res.data.insertedId) {
-        Swal.fire("Yahooo!", "Services Added Successfully", "success");
-        form.reset();
-      }
-    });
+    axios
+      .post("https://ridewave-server.vercel.app/service", addService)
+      .then((res) => {
+        if (res.data.insertedId) {
+          Swal.fire("Yahooo!", "Services Added Successfully", "success");
+          form.reset();
+        }
+      });
   };
   return (
     <div className=" min-h-screen">

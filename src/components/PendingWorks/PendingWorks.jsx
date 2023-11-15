@@ -34,7 +34,7 @@ const PendingWorks = ({ pendingBooking, refetch }) => {
     setPendingValue(val);
 
     // send data to the server
-    fetch(`http://localhost:5000/booking/${_id}`, {
+    fetch(`https://ridewave-server.vercel.app/booking/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -55,7 +55,7 @@ const PendingWorks = ({ pendingBooking, refetch }) => {
   };
   //Delete service
   //   const handleDelete = () => {
-  //     axios.delete(`http://localhost:5000/booking/${_id}`).then((res) => {
+  //     axios.delete(`https://ridewave-server.vercel.app/booking/${_id}`).then((res) => {
   //       if (res?.data?.deletedCount > 0) {
   //         Swal.fire({
   //           title: "Are you sure you want to delete?",

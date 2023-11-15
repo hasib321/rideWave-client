@@ -32,12 +32,14 @@ const ModaLInput = ({ services }) => {
     };
 
     // send data to the server
-    axios.post("http://localhost:5000/booking", bookingService).then((res) => {
-      if (res.data.insertedId) {
-        Swal.fire("Yahooo!", "Booking Added Successfully", "success");
-        form.reset();
-      }
-    });
+    axios
+      .post("https://ridewave-server.vercel.app/booking", bookingService)
+      .then((res) => {
+        if (res.data.insertedId) {
+          Swal.fire("Yahooo!", "Booking Added Successfully", "success");
+          form.reset();
+        }
+      });
   };
   return (
     <div>

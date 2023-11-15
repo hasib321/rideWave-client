@@ -31,7 +31,7 @@ const AllServices = () => {
   };
 
   const divStyle = {
-    backgroundImage: "url('/public/servicebanner.jpg')",
+    backgroundImage: "url('/servicebanner.jpg')",
     backgroundPosition: "center center",
     backgroundBlendMode: "multiply",
     backgroundSize: "cover",

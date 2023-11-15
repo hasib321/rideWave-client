@@ -43,7 +43,7 @@ const myRouter = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/service/${params.id}`),
+          fetch(`https://ridewave-server.vercel.app/service/${params.id}`),
       },
 
       {
@@ -58,7 +58,7 @@ const myRouter = createBrowserRouter([
         path: "/manageServices/:id",
         element: <UpdateService></UpdateService>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/service/${params.id}`),
+          fetch(`https://ridewave-server.vercel.app/service/${params.id}`),
       },
 
       {

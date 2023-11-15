@@ -72,7 +72,7 @@ const CustomerReview = () => {
             >
               <img
                 className="w-full rounded-xl"
-                src="../../../public/customerService.jpg"
+                src="customerService.jpg"
                 alt=""
               />
             </div>
@@ -84,7 +84,7 @@ const CustomerReview = () => {
             >
               <img
                 className="w-full rounded-xl"
-                src="../../../public/customerService2.jpg"
+                src="customerService2.jpg"
                 alt=""
               />
             </div>

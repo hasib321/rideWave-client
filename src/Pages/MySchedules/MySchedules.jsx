@@ -10,7 +10,7 @@ const MySchedules = () => {
   const { user } = useContext(AuthContext);
 
   const [currentBooking, setCurrentBooking] = useState([]);
-  const url = `http://localhost:5000/booking?userEmail=${user.email}`;
+  const url = `https://ridewave-server.vercel.app/booking?userEmail=${user.email}`;
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())

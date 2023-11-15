@@ -18,25 +18,27 @@ const Bookings = ({ booking, refetch }) => {
 
   //Delete service
   const handleDelete = () => {
-    axios.delete(`http://localhost:5000/booking/${_id}`).then((res) => {
-      if (res?.data?.deletedCount > 0) {
-        Swal.fire({
-          title: "Are you sure you want to delete?",
-          showDenyButton: true,
-          showCancelButton: true,
-          confirmButtonText: "Yes",
-          denyButtonText: `No`,
-        }).then((result) => {
-          /* Read more about isConfirmed, isDenied below */
-          if (result.isConfirmed) {
-            Swal.fire("Deleted", "Your service has been deleted", "success");
-            refetch();
-          } else if (result.isDenied) {
-            Swal.fire("No Changes", "", "info");
-          }
-        });
-      }
-    });
+    axios
+      .delete(`https://ridewave-server.vercel.app/booking/${_id}`)
+      .then((res) => {
+        if (res?.data?.deletedCount > 0) {
+          Swal.fire({
+            title: "Are you sure you want to delete?",
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: "Yes",
+            denyButtonText: `No`,
+          }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+              Swal.fire("Deleted", "Your service has been deleted", "success");
+              refetch();
+            } else if (result.isDenied) {
+              Swal.fire("No Changes", "", "info");
+            }
+          });
+        }
+      });
   };
   return (
     <div>
