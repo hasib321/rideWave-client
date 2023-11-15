@@ -40,6 +40,7 @@ const AddProduct = () => {
   };
   return (
     <div className=" min-h-screen">
+      {/* site name */}
       <Helmet>
         <title>RideWave | Add Service</title>
       </Helmet>
