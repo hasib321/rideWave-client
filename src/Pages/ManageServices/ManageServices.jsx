@@ -20,6 +20,7 @@ const ManageServices = () => {
           Customized Our Services
         </h1>
       </div>
+      {/* services Card */}
       <div>
         {data?.map((manageService) => (
           <Manageservice
