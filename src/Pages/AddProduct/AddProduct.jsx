@@ -49,6 +49,7 @@ const AddProduct = () => {
           <h2 className="text-3xl font-extrabold text-center my-5 text-[#0b996f]">
             Add Service
           </h2>
+          {/* service Add Form */}
           <form onSubmit={handleAddService}>
             {/* form name */}
             <div className="md:flex gap-5 mb-8">
