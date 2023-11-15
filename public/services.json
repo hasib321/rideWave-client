@@ -1,0 +1,72 @@
+ [
+    {
+      "serviceImage": "https://i.ibb.co/h2yF4tr/1671467731499.jpg",
+      "serviceName": "Express Commutes",
+      "serviceDescription": "Streamline your daily routine with our Express Commutes service. Simplify your work commute with reliable rides to and from the office. Join our community of urban professionals and enjoy the convenience of hassle-free daily commuting. Let us take you to work and back safely and affordably.",
+      "serviceArea": "Dhaka North",
+      "servicePrice": "$22"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/0BbDSDb/image.jpg",
+      "serviceName": "City Explorer",
+      "serviceDescription": "Discover your city's hidden gems with City Explorer. We offer guided tours and curated experiences to showcase the best of your city. Join our local experts for an adventure through the urban landscape, and see your city from a new perspective.",
+      "serviceArea": "Dhaka South",
+      "servicePrice": "$30"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/Qmmr26V/airport-top-banner.jpg",
+      "serviceName": "Airport Transfers",
+      "serviceDescription": "Start or end your journey hassle-free with Airport Transfers. We provide reliable and punctual rides to and from the airport. Say goodbye to parking fees and the stress of driving, and trust us to take you to your terminal on time.",
+      "serviceArea": "Dhaka North",
+      "servicePrice": "$18"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/7RxJJMJ/car-travel-concept-opened-trunk-with-luggage-inside-woman-with-man-near-it-road-trip.jpg",
+      "serviceName": "Weekend Escapes",
+      "serviceDescription": "Escape the city for a weekend of relaxation with Weekend Escapes. Explore serene destinations within a short drive. Join us for affordable and enjoyable getaways.",
+      "serviceArea": "Dhaka South",
+      "servicePrice": "$40"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/1GtKhxM/kids-laying-on-van-bed-1.jpg",
+      "serviceName": "Family Adventures",
+      "serviceDescription": "Spend quality time with your loved ones on our Family Adventures. Discover family-friendly destinations and create cherished memories. Join our family-oriented community today.",
+      "serviceArea": "Dhaka North",
+      "servicePrice": "$35"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/phGT3Fh/Eco-Friendly-Transportation-1024x576.webp",
+      "serviceName": "Eco-Friendly Rides",
+      "serviceDescription": "Reduce your environmental footprint with Eco-Friendly Rides. Join our community dedicated to eco-conscious transportation and help make a positive impact on the planet.",
+      "serviceArea": "Dhaka South",
+      "servicePrice": "$20"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/rbZC7gj/corporate-event-transportation-services-party-bus-rentals.jpg",
+      "serviceName": "Group Outings",
+      "serviceDescription": "Plan group outings effortlessly with Group Outings. Whether you're a team of colleagues, friends, or a club, we'll make your group trips memorable. Join us for affordable and enjoyable outings.",
+      "serviceArea": "Dhaka North",
+      "servicePrice": "$28"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/x38MQJW/images-q-tbn-ANd9-Gc-Tb-R1-FDhph3xb-K7h-Ww-Gp-ORABSb-Sa0-Z8fr-B-w-usqp-CAU.jpg",
+      "serviceName": "Cultural Experiences",
+      "serviceDescription": "Immerse yourself in local culture with Cultural Experiences. Explore traditions, art, and cuisine with our guided cultural tours. Join our cultural enthusiasts and enrich your knowledge of the world around you.",
+      "serviceArea": "Dhaka South",
+      "servicePrice": "$25"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/p3p0hpT/b84e2d04-a55c-49c5-86ce-31876be39857-large16x9-College-Bus-Passes.jpg",
+      "serviceName": "Student Rides",
+      "serviceDescription": "Students, make your daily commute to school or college convenient and affordable with Student Rides. Join our student community and enjoy the benefits of sharing rides with your peers.",
+      "serviceArea": "Dhaka North",
+      "servicePrice": "$15"
+    },
+    {
+      "serviceImage": "https://i.ibb.co/19VVtHV/SPECIAL-OCCASIONS-LIMO-SERVICE.jpg",
+      "serviceName": "Special Occasions",
+      "serviceDescription": "Make your special occasions memorable with Special Occasions. We offer luxurious and stylish transportation for weddings, anniversaries, and other important events. Join us for a touch of elegance on your big day.",
+      "serviceArea": "Dhaka South",
+      "servicePrice": "$50"
+    }
+  ]
